@@ -171,6 +171,12 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+.acontent {
+    font-size: 2em;
+}
+#ariver {
+    border: 3px black;
+}
 
 
 @media screen and (max-width: 900px) {
