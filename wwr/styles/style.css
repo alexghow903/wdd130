@@ -171,12 +171,30 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+#atitle {
+    font-size: 2.5em;
+}
 .acontent {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #ariver {
-    border: 3px black;
+    border: 4px solid black;
+    text-align: center;
+    margin-top: 20px;    
 }
+#danger{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#caption{
+    text-align: right;
+    margin-right: 25%;
+}
+
 
 
 @media screen and (max-width: 900px) {
