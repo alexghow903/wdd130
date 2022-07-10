@@ -21,15 +21,17 @@ body {
 header{
     background-color: #a89f68;
     padding: 25px;
+    font-family: var(--heading-font);
 }
 p{
     max-width: 1000px;
     text-align: center;
     margin-left: 100px;
+    
 }
 .pages{
     background-color: #D0B17A;
-    border: 3px black;
+    border: 1px solid black;
     font-size: 40px;
     margin: 20px;
 }
@@ -40,6 +42,8 @@ nav{
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color:#f5c396;
+    font-family: var(--paragraph-font);
 }
 aside{
     grid-column: 1/2;
@@ -47,4 +51,9 @@ aside{
 }
 .social{
     align-items: right;
+}
+.indi{
+    border: 3px solid black;
+    margin-top: 10px;
+    font-family: var(--paragraph-font);
 }
