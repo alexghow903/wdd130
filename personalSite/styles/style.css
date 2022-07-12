@@ -50,9 +50,6 @@ aside{
     grid-column: 1/2;
     margin-top: 100px;
 }
-.social{
-    align-items: right;
-}
 .indi{
     border: 3px solid black;
     margin-top: 10px;
